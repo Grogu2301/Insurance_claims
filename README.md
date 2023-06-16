@@ -23,6 +23,7 @@
 `streamlit run app.py`
 
 
+<<<<<<< HEAD
 Workflow to be followed : 
 
 1. Update the components/class
@@ -33,6 +34,9 @@ Workflow to be followed :
 
 
 ## Find the app here:
+=======
+## Create Docker image
+>>>>>>> d46bb5d76f9659668df29f4b01cd2a2bc3f70db7
 
 https://grogu2301-insurance-claims-app-o1or4k.streamlit.app/
 
