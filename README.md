@@ -35,3 +35,9 @@ Workflow to be followed :
 ## Find the app here:
 
 https://grogu2301-insurance-claims-app-o1or4k.streamlit.app/
+
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
+AWS_REGION
+AWS_ECR_LOGIN_URI
+ECR_REPOSITORY_NAME
