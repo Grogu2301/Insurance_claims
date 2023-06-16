@@ -22,6 +22,7 @@ HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health
 ENTRYPOINT ["streamlit", "run", "streamlit_app.py", "--server.port=8501", "--server.address=0.0.0.0"]
 =======
 FROM python:3.8-slim-buster
+EXPOSE 8501
 RUN apt update -y && apt install awscli -y
 >>>>>>> d46bb5d76f9659668df29f4b01cd2a2bc3f70db7
 
@@ -29,4 +30,5 @@ WORKDIR /app
 
 COPY . /app
 RUN pip install -r requirements.txt
-CMD ["streamlit" "run" "app.py"]
+ENTRYPOINT ["streamlit" "run"]
+CMD ["app.py"]
